@@ -1,0 +1,17 @@
+ .vs/
+        Authorization&Refreshtoken.csproj
+        Authorization&Refreshtoken.csproj.user
+        Authorization&Refreshtoken.http
+        Authorization&Refreshtoken.sln
+        Controllers/
+        DTO/
+        Data/
+        Migrations/
+        Models/
+        Program.cs
+        Properties/
+        Service/
+        appsettings.Development.json
+        appsettings.json
+        bin/
+        obj/
