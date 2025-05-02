@@ -3,20 +3,8 @@
   "WorkspaceRootPath": "E:\\3-.NET\\9-Projects\\5-Authorization\u0026Refreshtoken\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{964C8D08-540A-4D0B-98DF-C179103C0800}|Authorization\u0026Refreshtoken.csproj|e:\\3-.net\\9-projects\\5-authorization\u0026refreshtoken\\service\\jwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{964C8D08-540A-4D0B-98DF-C179103C0800}|Authorization\u0026Refreshtoken.csproj|solutionrelative:service\\jwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{964C8D08-540A-4D0B-98DF-C179103C0800}|Authorization\u0026Refreshtoken.csproj|e:\\3-.net\\9-projects\\5-authorization\u0026refreshtoken\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{964C8D08-540A-4D0B-98DF-C179103C0800}|Authorization\u0026Refreshtoken.csproj|solutionrelative:controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{964C8D08-540A-4D0B-98DF-C179103C0800}|Authorization\u0026Refreshtoken.csproj|e:\\3-.net\\9-projects\\5-authorization\u0026refreshtoken\\models\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{964C8D08-540A-4D0B-98DF-C179103C0800}|Authorization\u0026Refreshtoken.csproj|solutionrelative:models\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{964C8D08-540A-4D0B-98DF-C179103C0800}|Authorization\u0026Refreshtoken.csproj|e:\\3-.net\\9-projects\\5-authorization\u0026refreshtoken\\dto\\authresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{964C8D08-540A-4D0B-98DF-C179103C0800}|Authorization\u0026Refreshtoken.csproj|solutionrelative:dto\\authresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{964C8D08-540A-4D0B-98DF-C179103C0800}|Authorization\u0026Refreshtoken.csproj|e:\\3-.net\\9-projects\\5-authorization\u0026refreshtoken\\controllers\\itemscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -27,12 +15,28 @@
       "RelativeMoniker": "D:0:0:{964C8D08-540A-4D0B-98DF-C179103C0800}|Authorization\u0026Refreshtoken.csproj|solutionrelative:data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{964C8D08-540A-4D0B-98DF-C179103C0800}|Authorization\u0026Refreshtoken.csproj|e:\\3-.net\\9-projects\\5-authorization\u0026refreshtoken\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{964C8D08-540A-4D0B-98DF-C179103C0800}|Authorization\u0026Refreshtoken.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{964C8D08-540A-4D0B-98DF-C179103C0800}|Authorization\u0026Refreshtoken.csproj|e:\\3-.net\\9-projects\\5-authorization\u0026refreshtoken\\dto\\authresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{964C8D08-540A-4D0B-98DF-C179103C0800}|Authorization\u0026Refreshtoken.csproj|solutionrelative:dto\\authresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{964C8D08-540A-4D0B-98DF-C179103C0800}|Authorization\u0026Refreshtoken.csproj|e:\\3-.net\\9-projects\\5-authorization\u0026refreshtoken\\dto\\jwtoptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{964C8D08-540A-4D0B-98DF-C179103C0800}|Authorization\u0026Refreshtoken.csproj|solutionrelative:dto\\jwtoptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{964C8D08-540A-4D0B-98DF-C179103C0800}|Authorization\u0026Refreshtoken.csproj|e:\\3-.net\\9-projects\\5-authorization\u0026refreshtoken\\models\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{964C8D08-540A-4D0B-98DF-C179103C0800}|Authorization\u0026Refreshtoken.csproj|solutionrelative:models\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{964C8D08-540A-4D0B-98DF-C179103C0800}|Authorization\u0026Refreshtoken.csproj|e:\\3-.net\\9-projects\\5-authorization\u0026refreshtoken\\service\\jwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{964C8D08-540A-4D0B-98DF-C179103C0800}|Authorization\u0026Refreshtoken.csproj|solutionrelative:service\\jwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{964C8D08-540A-4D0B-98DF-C179103C0800}|Authorization\u0026Refreshtoken.csproj|e:\\3-.net\\9-projects\\5-authorization\u0026refreshtoken\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{964C8D08-540A-4D0B-98DF-C179103C0800}|Authorization\u0026Refreshtoken.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{964C8D08-540A-4D0B-98DF-C179103C0800}|Authorization\u0026Refreshtoken.csproj|e:\\3-.net\\9-projects\\5-authorization\u0026refreshtoken\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{964C8D08-540A-4D0B-98DF-C179103C0800}|Authorization\u0026Refreshtoken.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{964C8D08-540A-4D0B-98DF-C179103C0800}|Authorization\u0026Refreshtoken.csproj|e:\\3-.net\\9-projects\\5-authorization\u0026refreshtoken\\service\\ijwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -46,11 +50,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 4,
+              "Title": "JwtOptions.cs",
+              "DocumentMoniker": "E:\\3-.NET\\9-Projects\\5-Authorization\u0026Refreshtoken\\DTO\\JwtOptions.cs",
+              "RelativeDocumentMoniker": "DTO\\JwtOptions.cs",
+              "ToolTip": "E:\\3-.NET\\9-Projects\\5-Authorization\u0026Refreshtoken\\DTO\\JwtOptions.cs",
+              "RelativeToolTip": "DTO\\JwtOptions.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAwwBEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-02T22:22:59.023Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "IJWTService.cs",
               "DocumentMoniker": "E:\\3-.NET\\9-Projects\\5-Authorization\u0026Refreshtoken\\Service\\IJWTService.cs",
               "RelativeDocumentMoniker": "Service\\IJWTService.cs",
@@ -62,7 +79,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "AppUser.cs",
               "DocumentMoniker": "E:\\3-.NET\\9-Projects\\5-Authorization\u0026Refreshtoken\\Models\\AppUser.cs",
               "RelativeDocumentMoniker": "Models\\AppUser.cs",
@@ -81,13 +98,14 @@
               "RelativeDocumentMoniker": "appsettings.json",
               "ToolTip": "E:\\3-.NET\\9-Projects\\5-Authorization\u0026Refreshtoken\\appsettings.json",
               "RelativeToolTip": "appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAUAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-04-29T21:50:32.886Z"
+              "WhenOpened": "2025-04-29T21:50:32.886Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "ItemsController.cs",
               "DocumentMoniker": "E:\\3-.NET\\9-Projects\\5-Authorization\u0026Refreshtoken\\Controllers\\ItemsController.cs",
               "RelativeDocumentMoniker": "Controllers\\ItemsController.cs",
@@ -100,26 +118,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 6,
               "Title": "JWTService.cs",
               "DocumentMoniker": "E:\\3-.NET\\9-Projects\\5-Authorization\u0026Refreshtoken\\Service\\JWTService.cs",
               "RelativeDocumentMoniker": "Service\\JWTService.cs",
               "ToolTip": "E:\\3-.NET\\9-Projects\\5-Authorization\u0026Refreshtoken\\Service\\JWTService.cs*",
               "RelativeToolTip": "Service\\JWTService.cs*",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAswBsAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAACcAAAAAAAAAAAAowFkAAABiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-28T14:56:02.532Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "AccountController.cs",
               "DocumentMoniker": "E:\\3-.NET\\9-Projects\\5-Authorization\u0026Refreshtoken\\Controllers\\AccountController.cs",
               "RelativeDocumentMoniker": "Controllers\\AccountController.cs",
               "ToolTip": "E:\\3-.NET\\9-Projects\\5-Authorization\u0026Refreshtoken\\Controllers\\AccountController.cs",
               "RelativeToolTip": "Controllers\\AccountController.cs",
-              "ViewState": "AgIAAGUAAAAAAAAAAAAawHQAAABJAAAAAAAAAA==",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAewHoAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-28T14:04:55.298Z",
               "EditorCaption": ""
@@ -139,7 +157,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "E:\\3-.NET\\9-Projects\\5-Authorization\u0026Refreshtoken\\Data\\AppDbContext.cs",
               "RelativeDocumentMoniker": "Data\\AppDbContext.cs",
@@ -147,19 +165,21 @@
               "RelativeToolTip": "Data\\AppDbContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-28T13:30:31.637Z"
+              "WhenOpened": "2025-04-28T13:30:31.637Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "Program.cs",
               "DocumentMoniker": "E:\\3-.NET\\9-Projects\\5-Authorization\u0026Refreshtoken\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "E:\\3-.NET\\9-Projects\\5-Authorization\u0026Refreshtoken\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAawBoAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAABAAAAAAAAAAAAAawCAAAABqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-28T13:16:16.704Z"
+              "WhenOpened": "2025-04-28T13:16:16.704Z",
+              "EditorCaption": ""
             }
           ]
         }

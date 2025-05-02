@@ -1,5 +1,6 @@
 
 using Authorization_Refreshtoken.Data;
+using Authorization_Refreshtoken.DTO;
 using Authorization_Refreshtoken.Models;
 using Authorization_Refreshtoken.Service;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
@@ -27,6 +28,9 @@ namespace Authorization_Refreshtoken
             });
 
             builder.Services.AddScoped<IJWTService,JWTService>();
+
+            builder.Services.Configure<JwtOptions>(builder.Configuration.GetSection("jwt"));
+            builder.Services.Configure<RefreshTokenOptions>(builder.Configuration.GetSection("RefreshToken"));
 
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
             builder.Services.AddEndpointsApiExplorer();

@@ -1,5 +1,6 @@
 ﻿using Authorization_Refreshtoken.DTO;
 using Authorization_Refreshtoken.Models;
+using Microsoft.Extensions.Options;
 using Microsoft.IdentityModel.Tokens;
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
@@ -11,13 +12,17 @@ namespace Authorization_Refreshtoken.Service
     public class JWTService : IJWTService
     {
         private readonly IConfiguration _configuration;
-        public JWTService(IConfiguration configuration)
+        private readonly JwtOptions _JWToptions;
+        private readonly RefreshTokenOptions _refreshTokenOption;
+        public JWTService(IConfiguration configuration,IOptions<JwtOptions>jwtoption,IOptions<RefreshTokenOptions>refreshToken)
         {
             _configuration= configuration;
+            _JWToptions = jwtoption.Value;   
+            _refreshTokenOption= refreshToken.Value;
         }
         public  AuthResponse CreateToken(AppUser user)
         {
-            DateTime expiration = DateTime.UtcNow.AddHours(Convert.ToDouble(_configuration["jwt:Expiration_hours"]));
+            DateTime expiration = DateTime.UtcNow.AddHours(Convert.ToDouble(_JWToptions.Expiration_hours));
 
             Claim[] claims = new Claim[]
             {
@@ -33,12 +38,13 @@ namespace Authorization_Refreshtoken.Service
                 new Claim(ClaimTypes.Name,user.UserName),
             };
 
-            SymmetricSecurityKey securityKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_configuration["jwt:Key"]));
+            SymmetricSecurityKey securityKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_JWToptions.Key));
             SigningCredentials signCred=new SigningCredentials(securityKey,SecurityAlgorithms.HmacSha256);
 
             JwtSecurityToken tokenGenerator = new JwtSecurityToken(
-                _configuration["jwt:Issuer"],
-                _configuration["jwt:Audience"],
+               _JWToptions.Issuer,
+               _JWToptions.Audience,
+               
                 claims,
                 expires: expiration,
                 signingCredentials: signCred
@@ -54,7 +60,7 @@ namespace Authorization_Refreshtoken.Service
                 Email = user.Email,
                 UserName = user.UserName,
                 RefreshToken = GenerateRefreshToken(),
-                ExpirationDateRefreshToken = DateTime.UtcNow.AddDays(Convert.ToInt32(_configuration["RefreshToken:Expiration_date"]))
+                ExpirationDateRefreshToken = DateTime.UtcNow.AddDays(Convert.ToInt32(_refreshTokenOption.Expiration_date))
             };
         }
 
@@ -73,15 +79,15 @@ namespace Authorization_Refreshtoken.Service
             var tokenValidationParameters = new TokenValidationParameters()
             {
                 ValidateAudience = true,
-                ValidAudience = _configuration["jwt:Audience"],
+                ValidAudience =_JWToptions.Audience,
 
                 ValidateIssuer = true,
-                ValidIssuer = _configuration["jwt:Issuer"],
+                ValidIssuer = _JWToptions.Issuer,
 
                // ValidateLifetime = true,
                 ValidateIssuerSigningKey = true,
 
-                IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_configuration["jwt:Key"]))
+                IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_JWToptions.Key))
 
             };
 
