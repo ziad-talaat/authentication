@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "EcpaicUILPY=",
+  "dgSpecHash": "q5i6Cl/wEoc=",
   "success": true,
-  "projectFilePath": "E:\\3-.NET\\9-Projects\\Authorization&Refreshtoken\\Authorization&Refreshtoken.csproj",
+  "projectFilePath": "E:\\3-.NET\\9-Projects\\5-Authorization&Refreshtoken\\Authorization&Refreshtoken.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Zeyad\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\Zeyad\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

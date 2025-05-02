@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Authorization&Refreshtoken")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cdeb2d429d2b4ba645167d4bdea21c4fe3e78ea7")]
 [assembly: System.Reflection.AssemblyProductAttribute("Authorization&Refreshtoken")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Authorization&Refreshtoken")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

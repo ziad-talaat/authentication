@@ -17,6 +17,22 @@
   },
   {
     "ContainingType": "Authorization_Refreshtoken.Controllers.AccountController",
+    "Method": "GenerateNewAccessToken",
+    "RelativePath": "api/Account/generateNewToken",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "Authorization_Refreshtoken.DTO.TokenModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Authorization_Refreshtoken.Controllers.AccountController",
     "Method": "Login",
     "RelativePath": "api/Account/login",
     "HttpMethod": "POST",

@@ -8,6 +8,8 @@ namespace Authorization_Refreshtoken.Models
         [MaxLength(30)]
         public string? SecondName { get; set; }
         public DateTime BirthDate { get; set; }
+        public string? RefreshToken { get; set; }
+        public DateTime? ExpirationDateRefreshToken { get; set; }
 
         public int Age 
         {

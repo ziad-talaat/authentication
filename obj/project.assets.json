@@ -4341,11 +4341,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\3-.NET\\9-Projects\\Authorization&Refreshtoken\\Authorization&Refreshtoken.csproj",
+      "projectUniqueName": "E:\\3-.NET\\9-Projects\\5-Authorization&Refreshtoken\\Authorization&Refreshtoken.csproj",
       "projectName": "Authorization&Refreshtoken",
-      "projectPath": "E:\\3-.NET\\9-Projects\\Authorization&Refreshtoken\\Authorization&Refreshtoken.csproj",
+      "projectPath": "E:\\3-.NET\\9-Projects\\5-Authorization&Refreshtoken\\Authorization&Refreshtoken.csproj",
       "packagesPath": "C:\\Users\\Zeyad\\.nuget\\packages\\",
-      "outputPath": "E:\\3-.NET\\9-Projects\\Authorization&Refreshtoken\\obj\\",
+      "outputPath": "E:\\3-.NET\\9-Projects\\5-Authorization&Refreshtoken\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Zeyad\\AppData\\Roaming\\NuGet\\NuGet.Config",
